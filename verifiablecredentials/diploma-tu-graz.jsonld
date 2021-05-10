@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://essif.europa.eu/schemas/vc/2020/v1"
+  ],
+  "type": [
+    "VerifiableCredential",
+    "VerifiableAttestation",
+    "DiplomaCredential"
+  ],
+  "issuer": "did:ebsi:0x88170d3e6b1e24778f26161912e69c136f423b32",
+  "issuanceDate": "2021-05-10T17:45:34Z",
+  "credentialSubject": {
+    "type": "Student",
+    "id": "did:essif:123121",
+    "studyProgram": "Master Studies in Strategy, Innovation, and Management Control",
+    "learningAchievement": "Bachelor of Science",
+    "dateOfAchievement": "2021-03-18T00:00:00.000Z"
+  },
+  "proof": {
+    "type": "EcdsaSecp256k1Signature2019",
+    "created": "2021-05-10T17:45:34Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:ebsi:0x88170d3e6b1e24778f26161912e69c136f423b32#controller",
+    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEUCIQDXO8-emATvSU7SrsjAnCnnqsKCY83ZiWK3tijMIQFoFQIgF0-bt9gC6c8aUHve6WYFBxq8DZCCBNt54IPY3nw4sLI"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "name": "https://schema.org/name",
+    "description": "https://schema.org/description",
+    "identifier": "http://schema.org/identifier",
+    "image": {"@id": "http://schema.org/image", "@type": "@id"},
+
+    "essif": "https://essif.europa.eu/schemas/vc/2020/v1",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "VerifiableAttestation": "essif:VerifiableAttestation",
+    "DiplomaCredential": "essif:DiplomaCredential",
+
+    "Student": {
+        "@id": "essif:Student",
+        "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "studyProgram": "essif:studyProgram",
+            "immatriculationNumber": "essif:immatriculationNumber",
+            "currentGivenName": "essif:currentGivenName",
+            "currentFamilyName": "essif:currentFamilyName",
+            "learningAchievement": "essif:learningAchievement",
+            "dateOfBirth": { "@id": "essif:dateOfBirth", "@type": "xsd:dateTime" },
+            "dateOfAchievement": { "@id": "essif:dateOfAchievement", "@type": "xsd:dateTime" },
+            "overallEvaluation": "essif:overallEvaluation",
+            "eqfLevel": "essif:eqfLevel",
+            "targetFrameworkName": "essif:targetFrameworkName"
+        }
+    }
+  }
+}
