@@ -1,34 +1,90 @@
 {
-  "@context": [
-    "https://www.w3.org/2018/credentials/v1",
-    "https://essif.europa.eu/schemas/v-a/2020/v1"
-  ],
-  "type": [
-    "VerifiableCredential",
-    "VerifiableAttestation",
-    "DiplomaCredential"
-  ],
-  "issuer": "did:ebsi:88170d3e6b1e24778f26161912e69c136f423b32",
-  "issuanceDate": "2021-05-10T17:45:34Z",
-  "credentialSubject": {
-    "type": "Student",
-    "id": "did:ebsi:2757945549477fc571663bee12042873fe555b674bd294a3",
-    "studyProgram": "Master Studies in Strategy, Innovation, and Management Control",
-    "immatriculationNumber": "01234567",
-    "currentGivenName": "Maximilian",
-    "currentFamilyName": "Mustermann",
-    "learningAchievement": "Master of Science",
-    "dateOfBirth": "1999-10-22T00:00:00.000Z",
-    "dateOfAchievement": "2021-03-18T00:00:00.000Z",
-    "overallEvaluation": "graduated with distinction",
-    "eqfLevel": "http://data.europa.eu/snb/eqf/7",
-    "targetFrameworkName": "European Qualifications Framework for lifelong learning - (2008/C 111/01)"
-  },
-  "proof": {
-    "type": "EcdsaSecp256k1Signature2019",
-    "created": "2021-05-10T17:45:34Z",
-    "proofPurpose": "assertionMethod",
-    "verificationMethod": "did:ebsi:88170d3e6b1e24778f26161912e69c136f423b32#controller",
-    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEUCIQDXO8-emATvSU7SrsjAnCnnqsKCY83ZiWK3tijMIQFoFQIgF0-bt9gC6c8aUHve6WYFBxq8DZCCBNt54IPY3nw4sLI"
-  }
+	"@context": [
+		"https://www.w3.org/2018/credentials/v1",
+		"https://essif.europa.eu/schemas/v-a/2020/v1"
+	],
+	"type": [
+		"VerifiableCredential",
+		"VerifiableAttestation",
+		"DiplomaCredential"
+	],
+	"issuer": "did:ebsi:88170d3e6b1e24778f26161912e69c136f423b32",
+	"issuanceDate": "2021-05-10T17:45:34Z",
+	"credentialSubject": {
+		"type": "Student",
+		"@id": "did:ebsi:2757945549477fc571663bee12042873fe555b674bd294a3",
+		"familyName": "Mustermann",
+		"firstName": "Maximilian",
+		"identifier": {
+			"schemeID": "immatriculation",
+			"#identifier": "01234567"
+		},
+		"dateOfBirth": "1999-10-22T00:00:00.000Z",
+		"learningAchievement": {
+			"@id": "urn:epass:learningAchievement:1",
+			"title": {
+				"text": {
+					"@content-type": "text/plain",
+					"@lang": "en",
+					"#text": "Master of Science"
+				}
+			},
+			"wasAwardedBy": {
+				"@id": "urn:epass:awardingProcess:1",
+				"awardingDate": "2021-03-18T00:00:00.000Z"
+			},
+			"wasDerivedFrom": {
+				"@id": "urn:epass:assessment:1",
+				"grade": "graduated with distinction"
+			},
+			"specifiedBy": {
+				"@idref": "urn:epass:qualification:1"
+			}
+		}
+	},
+	"learningSpecificationReferences": {
+		"qualification": {
+			"@id": "urn:epass:qualification:1",
+			"title": {
+				"text": {
+					"@content-type": "text/plain",
+					"@lang": "en",
+					"#text": "Master Studies in Strategy, Innovation, and Management Control"
+				}
+			},
+			"eqfLevel": {
+				"@targetFrameworkUrl": "http://data.europa.eu/snb/eqf/25831c2",
+				"@targetNotation": "eqf",
+				"@uri": "http://data.europa.eu/snb/eqf/7",
+				"targetName": {
+					"text": {
+						"@content-type": "text/plain",
+						"@lang": "en",
+						"#text": "Level 7"
+					}
+				},
+				"targetDescription": {
+					"text": {
+						"@content-type": "text/plain",
+						"@lang": "en",
+						"#text": "Highly specialised knowledge, some of which is at the forefront of knowledge in a field of work or study, as the basis for original thinking and/or research <html:br></html:br>critical awareness of knowledge issues in a field and at the interface between different fields </html:div> <html:div xmlns:html=\"http://www.w3.org/1999/xhtml\" class=\"Skill\">specialised problem-solving skills required in research and/or innovation in order to develop new knowledge and procedures and to integrate knowledge from different fields</html:div> <html:div xmlns:html=\"http://www.w3.org/1999/xhtml\" class=\"Competence\">manage and transform work or study contexts that are complex, unpredictable and require new strategic approaches <html:br></html:br>take responsibility for contributing to professional knowledge and practice and/or for reviewing the strategic performance of teams"
+					}
+				},
+				"targetFrameworkName": {
+					"text": {
+						"@content-type": "text/plain",
+						"@lang": "en",
+						"#text": "European Qualifications Framework for lifelong learning - (2008/C 111/01)"
+					}
+				}
+			}
+		}
+	},
+	"proof": {
+		"type": "EcdsaSecp256k1Signature2019",
+		"created": "2021-05-10T17:45:34Z",
+		"proofPurpose": "assertionMethod",
+		"verificationMethod": "did:ebsi:88170d3e6b1e24778f26161912e69c136f423b32#controller",
+		"jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEUCIQDXO8-emATvSU7SrsjAnCnnqsKCY83ZiWK3tijMIQFoFQIgF0-bt9gC6c8aUHve6WYFBxq8DZCCBNt54IPY3nw4sLI"
+	}
 }

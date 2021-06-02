@@ -1,27 +1,53 @@
 {
-  "@context": [
-    "https://www.w3.org/2018/credentials/v1",
-    "https://essif.europa.eu/schemas/v-a/2020/v1"
-  ],
-  "type": [
-    "VerifiableCredential",
-    "VerifiableAttestation",
-    "DiplomaCredential"
-  ],
-  "issuer": "did:ebsi:88170d3e6b1e24778f26161912e69c136f423b32",
-  "issuanceDate": "2021-05-10T17:45:34Z",
-  "credentialSubject": {
-    "type": "Student",
-    "id": "did:ebsi:2757945549477fc571663bee12042873fe555b674bd294a3",
-    "studyProgram": "Master Studies in Strategy, Innovation, and Management Control",
-    "learningAchievement": "Master of Science",
-    "dateOfAchievement": "2021-03-18T00:00:00.000Z"
-  },
-  "proof": {
-    "type": "EcdsaSecp256k1Signature2019",
-    "created": "2021-05-10T17:45:34Z",
-    "proofPurpose": "assertionMethod",
-    "verificationMethod": "did:ebsi:88170d3e6b1e24778f26161912e69c136f423b32#controller",
-    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEUCIQDXO8-emATvSU7SrsjAnCnnqsKCY83ZiWK3tijMIQFoFQIgF0-bt9gC6c8aUHve6WYFBxq8DZCCBNt54IPY3nw4sLI"
-  }
+	"@context": [
+		"https://www.w3.org/2018/credentials/v1",
+		"https://essif.europa.eu/schemas/v-a/2020/v1"
+	],
+	"type": [
+		"VerifiableCredential",
+		"VerifiableAttestation",
+		"DiplomaCredential"
+	],
+	"issuer": "did:ebsi:88170d3e6b1e24778f26161912e69c136f423b32",
+	"issuanceDate": "2021-05-10T17:45:34Z",
+	"credentialSubject": {
+		"type": "Student",
+		"id": "did:ebsi:2757945549477fc571663bee12042873fe555b674bd294a3",
+		"learningAchievement": {
+			"@id": "urn:epass:learningAchievement:1",
+			"title": {
+				"text": {
+					"@content-type": "text/plain",
+					"@lang": "en",
+					"#text": "Master of Science"
+				}
+			},
+			"wasAwardedBy": {
+				"@id": "urn:epass:awardingProcess:1",
+				"awardingDate": "2021-03-18T00:00:00.000Z"
+			},
+			"specifiedBy": {
+				"@idref": "urn:epass:qualification:1"
+			}
+		}
+	},
+	"learningSpecificationReferences": {
+		"qualification": {
+			"@id": "urn:epass:qualification:1",
+			"title": {
+				"text": {
+					"@content-type": "text/plain",
+					"@lang": "en",
+					"#text": "Master Studies in Strategy, Innovation, and Management Control"
+				}
+			}
+		}
+	},
+	"proof": {
+		"type": "EcdsaSecp256k1Signature2019",
+		"created": "2021-05-10T17:45:34Z",
+		"proofPurpose": "assertionMethod",
+		"verificationMethod": "did:ebsi:88170d3e6b1e24778f26161912e69c136f423b32#controller",
+		"jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEUCIQDXO8-emATvSU7SrsjAnCnnqsKCY83ZiWK3tijMIQFoFQIgF0-bt9gC6c8aUHve6WYFBxq8DZCCBNt54IPY3nw4sLI"
+	}
 }
