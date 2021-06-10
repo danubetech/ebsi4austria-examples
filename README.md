@@ -17,7 +17,7 @@ The project is funded by the EU's Connecting Europe Facility (CEF) under the [20
 * Test DID for TU Graz: [`did:ebsi:FqiyP831qX5xUD66CCAKMDs225QNb9Sp3UHvbJ9tSDn6`](https://dev.uniresolver.io/#did:ebsi:FqiyP831qX5xUD66CCAKMDs225QNb9Sp3UHvbJ9tSDn6)
 * Test DID for WU Wien: [`did:ebsi:51rzpDXXCtKExG47boFBahAgd2dtfAZbQxMHM17mYKoq`](https://dev.uniresolver.io/#did:ebsi:51rzpDXXCtKExG47boFBahAgd2dtfAZbQxMHM17mYKoq)
 
-## Resources
+## Verifiable Credentials
 
 * [JSON-LD Context](https://github.com/danubetech/ebsi4austria-examples/blob/main/context/essif-schemas-vc-2020-v1.jsonld)
 * [Example Diploma 1](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-tu-graz.jsonld)
