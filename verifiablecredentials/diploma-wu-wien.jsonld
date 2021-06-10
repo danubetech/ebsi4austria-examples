@@ -9,10 +9,10 @@
     "DiplomaCredential"
   ],
   "issuer": "did:ebsi:AQYYKxhchnEwBNeXftt3drEuzNDWehsbr62wxkoeHAo6",
-  "issuanceDate": "2021-06-10T08:25:06Z",
+  "issuanceDate": "2021-06-10T08:51:12Z",
   "credentialSubject": {
     "type": "Student",
-    "id": "did:key:z6MkvUF7xQDo7ZzaTfbp5KeLjov9myz86Rphtufkb5aZC2if",
+    "id": "did:key:z6Mkek4fyGEAK4ju5CW8sxnHRRqpSp3kp6XKJDmfGmQN21g5",
     "studyProgram": "Master Studies in Strategy, Innovation, and Management Control",
     "immatriculationNumber": "00000000",
     "currentGivenName": "Eva",
@@ -26,9 +26,9 @@
   },
   "proof": {
     "type": "EcdsaSecp256k1Signature2019",
-    "created": "2021-06-10T08:25:06Z",
+    "created": "2021-06-10T08:51:12Z",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:ebsi:AQYYKxhchnEwBNeXftt3drEuzNDWehsbr62wxkoeHAo6#key-0",
-    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEQCIBhI3QRVUhTRqFVMTS-IYf5ds5Mb8CUPmrsqHGz_b2hqAiAILfB68Ka1qQOC-NSelvnVcOSIzQt0ZWJOXHxKgm1RUw"
+    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEQCIBemMi6L-BEHAusqtV5kA7YJhj98Nu5uFnbVkj9toyglAiBMNOokyQsIVcb6WlOU8flBgpebHtFSzjTpXLcbiiJYhQ"
   }
 }
