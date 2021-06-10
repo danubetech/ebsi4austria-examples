@@ -14,8 +14,8 @@ The project is funded by the EU's Connecting Europe Facility (CEF) under the [20
 
 ## DIDs
 
-* Test DID for TU Graz: [`did:ebsi:G4VYSEX7tMyQie2TRH9n2XED275eNqoDuSd6SMyJ48j6`](https://dev.uniresolver.io/#did:ebsi:G4VYSEX7tMyQie2TRH9n2XED275eNqoDuSd6SMyJ48j6)
-* Test DID for WU Wien: [`did:ebsi:AQYYKxhchnEwBNeXftt3drEuzNDWehsbr62wxkoeHAo6`](https://dev.uniresolver.io/#did:ebsi:AQYYKxhchnEwBNeXftt3drEuzNDWehsbr62wxkoeHAo6)
+* Test DID for TU Graz: [`did:ebsi:FqiyP831qX5xUD66CCAKMDs225QNb9Sp3UHvbJ9tSDn6`](https://dev.uniresolver.io/#did:ebsi:FqiyP831qX5xUD66CCAKMDs225QNb9Sp3UHvbJ9tSDn6)
+* Test DID for WU Wien: [`did:ebsi:51rzpDXXCtKExG47boFBahAgd2dtfAZbQxMHM17mYKoq`](https://dev.uniresolver.io/#did:ebsi:51rzpDXXCtKExG47boFBahAgd2dtfAZbQxMHM17mYKoq)
 
 ## Resources
 
