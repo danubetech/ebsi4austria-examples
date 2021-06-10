@@ -1,27 +1,29 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://essif.europa.eu/schemas/v-a/2020/v1"
+    "https://essif.europa.eu/schemas/vc/2020/v1"
   ],
   "type": [
     "VerifiableCredential",
     "VerifiableAttestation",
     "DiplomaCredential"
   ],
-  "issuer": "did:ebsi:88170d3e6b1e24778f26161912e69c136f423b32",
-  "issuanceDate": "2021-05-10T17:45:34Z",
+  "issuer": "did:ebsi:G4VYSEX7tMyQie2TRH9n2XED275eNqoDuSd6SMyJ48j6",
+  "issuanceDate": "2021-06-10T08:58:37Z",
   "credentialSubject": {
     "type": "Student",
-    "id": "did:ebsi:2757945549477fc571663bee12042873fe555b674bd294a3",
-    "studyProgram": "Master Studies in Strategy, Innovation, and Management Control",
+    "id": "did:key:z6MkoYpxQo9m7qVTYwWYGGDKvbd1qkLKe4BPriENazE8x67D",
+    "studyProgram": "Master Studies in Computer Science",
     "learningAchievement": "Master of Science",
-    "dateOfAchievement": "2021-03-18T00:00:00.000Z"
+    "dateOfAchievement": "2021-03-18T00:00:00.000Z",
+    "eqfLevel": "http://data.europa.eu/snb/eqf/7",
+    "targetFrameworkName": "European Qualifications Framework for lifelong learning - (2008/C 111/01)"
   },
   "proof": {
     "type": "EcdsaSecp256k1Signature2019",
-    "created": "2021-05-10T17:45:34Z",
+    "created": "2021-06-10T08:58:37Z",
     "proofPurpose": "assertionMethod",
-    "verificationMethod": "did:ebsi:88170d3e6b1e24778f26161912e69c136f423b32#controller",
-    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEUCIQDXO8-emATvSU7SrsjAnCnnqsKCY83ZiWK3tijMIQFoFQIgF0-bt9gC6c8aUHve6WYFBxq8DZCCBNt54IPY3nw4sLI"
+    "verificationMethod": "did:ebsi:G4VYSEX7tMyQie2TRH9n2XED275eNqoDuSd6SMyJ48j6#key-0",
+    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEQCID3sB3lpnpS7k7YeAoZrZ8sY8vLoRRtJM7m7lRQ5i9oaAiBeoSXrOiKNZkzn6zI0W8ZyMTOuMPi8zqYgDX8WUoj-VQ"
   }
 }
