@@ -2,7 +2,7 @@
 
 ## Information
 
-This repository contains information and examples related to the **EBSI4Austria** pilot project, to pilot the [European Blockchain Service Infrastructure (EBSI)](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/EBSI) in Austria.
+This repository contains information and examples related to the **EBSI4Austria** project, to pilot the [European Blockchain Service Infrastructure (EBSI)](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/EBSI) in Austria.
 
 The project is funded by the EU's Connecting Europe Facility (CEF) under the [2020 CEF Telecom Call - Blockchain (CEF-TC-2020-1)](https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/apply-funding/2020-cef-telecom-calls-proposals).
 
