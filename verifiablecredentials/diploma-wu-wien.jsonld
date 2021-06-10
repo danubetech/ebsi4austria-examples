@@ -1,34 +1,34 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://essif.europa.eu/schemas/v-a/2020/v1"
+    "https://essif.europa.eu/schemas/vc/2020/v1"
   ],
   "type": [
     "VerifiableCredential",
     "VerifiableAttestation",
     "DiplomaCredential"
   ],
-  "issuer": "did:ebsi:88170d3e6b1e24778f26161912e69c136f423b32",
-  "issuanceDate": "2021-05-10T17:45:34Z",
+  "issuer": "did:ebsi:AQYYKxhchnEwBNeXftt3drEuzNDWehsbr62wxkoeHAo6",
+  "issuanceDate": "2021-06-10T08:25:06Z",
   "credentialSubject": {
     "type": "Student",
-    "id": "did:ebsi:2757945549477fc571663bee12042873fe555b674bd294a3",
+    "id": "did:key:z6MkvUF7xQDo7ZzaTfbp5KeLjov9myz86Rphtufkb5aZC2if",
     "studyProgram": "Master Studies in Strategy, Innovation, and Management Control",
-    "immatriculationNumber": "01234567",
-    "currentGivenName": "Maximilian",
-    "currentFamilyName": "Mustermann",
-    "learningAchievement": "Master of Science",
+    "immatriculationNumber": "00000000",
+    "currentGivenName": "Eva",
+    "currentFamilyName": "Musterfrau",
+    "learningAchievement": "Master's Degree",
     "dateOfBirth": "1999-10-22T00:00:00.000Z",
-    "dateOfAchievement": "2021-03-18T00:00:00.000Z",
-    "overallEvaluation": "graduated with distinction",
+    "dateOfAchievement": "2021-01-04T00:00:00.000Z",
+    "overallEvaluation": "passed with honors",
     "eqfLevel": "http://data.europa.eu/snb/eqf/7",
     "targetFrameworkName": "European Qualifications Framework for lifelong learning - (2008/C 111/01)"
   },
   "proof": {
     "type": "EcdsaSecp256k1Signature2019",
-    "created": "2021-05-10T17:45:34Z",
+    "created": "2021-06-10T08:25:06Z",
     "proofPurpose": "assertionMethod",
-    "verificationMethod": "did:ebsi:88170d3e6b1e24778f26161912e69c136f423b32#controller",
-    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEUCIQDXO8-emATvSU7SrsjAnCnnqsKCY83ZiWK3tijMIQFoFQIgF0-bt9gC6c8aUHve6WYFBxq8DZCCBNt54IPY3nw4sLI"
+    "verificationMethod": "did:ebsi:AQYYKxhchnEwBNeXftt3drEuzNDWehsbr62wxkoeHAo6#key-0",
+    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEQCIBhI3QRVUhTRqFVMTS-IYf5ds5Mb8CUPmrsqHGz_b2hqAiAILfB68Ka1qQOC-NSelvnVcOSIzQt0ZWJOXHxKgm1RUw"
   }
 }
