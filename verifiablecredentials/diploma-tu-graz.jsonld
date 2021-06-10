@@ -8,11 +8,11 @@
     "VerifiableAttestation",
     "DiplomaCredential"
   ],
-  "issuer": "did:ebsi:G4VYSEX7tMyQie2TRH9n2XED275eNqoDuSd6SMyJ48j6",
-  "issuanceDate": "2021-06-10T08:58:37Z",
+  "issuer": "did:ebsi:FqiyP831qX5xUD66CCAKMDs225QNb9Sp3UHvbJ9tSDn6",
+  "issuanceDate": "2021-06-10T10:49:54Z",
   "credentialSubject": {
     "type": "Student",
-    "id": "did:key:z6MkoYpxQo9m7qVTYwWYGGDKvbd1qkLKe4BPriENazE8x67D",
+    "id": "did:key:z6MkqyYXcBQZ5hZ9BFHBiVnmrZ1C1HCpesgZQoTdgjLdU6Ah",
     "studyProgram": "Master Studies in Computer Science",
     "learningAchievement": "Master of Science",
     "dateOfAchievement": "2021-03-18T00:00:00.000Z",
@@ -21,9 +21,9 @@
   },
   "proof": {
     "type": "EcdsaSecp256k1Signature2019",
-    "created": "2021-06-10T08:58:37Z",
+    "created": "2021-06-10T10:49:54Z",
     "proofPurpose": "assertionMethod",
-    "verificationMethod": "did:ebsi:G4VYSEX7tMyQie2TRH9n2XED275eNqoDuSd6SMyJ48j6#key-0",
-    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEQCID3sB3lpnpS7k7YeAoZrZ8sY8vLoRRtJM7m7lRQ5i9oaAiBeoSXrOiKNZkzn6zI0W8ZyMTOuMPi8zqYgDX8WUoj-VQ"
+    "verificationMethod": "did:ebsi:FqiyP831qX5xUD66CCAKMDs225QNb9Sp3UHvbJ9tSDn6#keys-1",
+    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEUCIQCkfQMgFSYK3wPE9P7Oc8x3QGPdGBvuyiYMcs_jKlXhpQIgIwK_39bGcZ91FMmCkTNdq9Qj8E0KNh1wKc9UY6JOk00"
   }
 }
