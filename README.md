@@ -25,8 +25,9 @@ The project is funded by the EU's Connecting Europe Facility (CEF) under the [20
 
 ## Demonstration Websites
 
-* https://tugraz.ebsi4austria.danubetech.com/
-* https://wuwien.ebsi4austria.danubetech.com/
+* https://wallet.interop.digitalbazaar.com/ (CHAPI web-based wallet)
+* https://tugraz.ebsi4austria.danubetech.com/ (Issuer)
+* https://wuwien.ebsi4austria.danubetech.com/ (Verifier)
 
 ## About
 
