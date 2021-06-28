@@ -1,34 +1,27 @@
 {
-  "@context": [
-    "https://www.w3.org/2018/credentials/v1",
-    "https://essif.europa.eu/schemas/vc/2020/v1"
-  ],
-  "type": [
-    "VerifiableCredential",
-    "VerifiableAttestation",
-    "DiplomaCredential"
-  ],
-  "issuer": "did:ebsi:51rzpDXXCtKExG47boFBahAgd2dtfAZbQxMHM17mYKoq",
-  "issuanceDate": "2021-06-28T13:14:56Z",
-  "credentialSubject": {
-    "type": "Student",
-    "id": "did:key:z6Mkk2gs7gfr1F1idzKkjie7eA4pDtRjGfG2GdGcVf9kHgQw",
-    "studyProgram": "Master Studies in Strategy, Innovation, and Management Control",
-    "immatriculationNumber": "00000000",
-    "currentGivenName": "Eva",
-    "currentFamilyName": "Musterfrau",
-    "learningAchievement": "Master's Degree",
-    "dateOfBirth": "1999-10-22T00:00:00.000Z",
-    "dateOfAchievement": "2021-01-04T00:00:00.000Z",
-    "overallEvaluation": "passed with honors",
-    "eqfLevel": "http://data.europa.eu/snb/eqf/7",
-    "targetFrameworkName": "European Qualifications Framework for lifelong learning - (2008/C 111/01)"
-  },
-  "proof": {
-    "type": "EcdsaSecp256k1Signature2019",
-    "created": "2021-06-28T13:14:56Z",
-    "proofPurpose": "assertionMethod",
-    "verificationMethod": "did:ebsi:51rzpDXXCtKExG47boFBahAgd2dtfAZbQxMHM17mYKoq#keys-1",
-    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEUCIQDD_KZWLkzQWhp8Hdtm7AV2WaILUlHweSNbXpubvZIZ4AIgBkcXiPvMEFW5KVl0VQ90fBTfnvuAouCtVQPETtPL86M"
-  }
+	"@context": ["https://www.w3.org/2018/credentials/v1", "https://essif.europa.eu/schemas/vc/2020/v1"],
+	"type": ["VerifiableCredential", "VerifiableAttestation", "DiplomaCredential"],
+	"issuer": "did:ebsi:51rzpDXXCtKExG47boFBahAgd2dtfAZbQxMHM17mYKoq",
+	"credentialSubject": {
+		"type": "Student",
+		"id": "did:key:z6Mkk2gs7gfr1F1idzKkjie7eA4pDtRjGfG2GdGcVf9kHgQw",
+		"studyProgram": "Master Studies in Strategy, Innovation, and Management Control",
+		"immatriculationNumber": "00000000",
+		"currentGivenName": "Eva",
+		"currentFamilyName": "Musterfrau",
+		"learningAchievement": "Master's Degree",
+		"dateOfBirth": "1999-10-22T00:00:00.000Z",
+		"dateOfAchievement": "2021-01-04T00:00:00.000Z",
+		"overallEvaluation": "passed with honors",
+		"eqfLevel": "http://data.europa.eu/snb/eqf/7",
+		"targetFrameworkName": "European Qualifications Framework for lifelong learning - (2008/C 111/01)"
+	},
+	"issuanceDate": "2021-06-28T13:21:46Z",
+	"proof": {
+		"type": "EcdsaSecp256k1Signature2019",
+		"created": "2021-06-28T13:21:46Z",
+		"proofPurpose": "assertionMethod",
+		"verificationMethod": "did:ebsi:51rzpDXXCtKExG47boFBahAgd2dtfAZbQxMHM17mYKoq#keys-1",
+		"jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEQCIFtwhzPoBpdxuJyGcxT6v2yUWuKqticc6buFmPUm4H5cAiB4pFIZW0tXmxzSP6RFw-R6Lu8Lmd9BcwsIi1xZrTiRLA"
+	}
 }
