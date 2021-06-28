@@ -9,7 +9,7 @@
     "identifier": "http://schema.org/identifier",
     "image": {"@id": "http://schema.org/image", "@type": "@id"},
 
-    "essif": "https://essif.europa.eu/schemas/vc/2020/v1",
+    "essif": "https://essif.europa.eu/schemas/vc/2020/v1#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
 
     "VerifiableAttestation": "essif:VerifiableAttestation",
@@ -19,7 +19,7 @@
         "@id": "essif:Student",
         "@context": {
 
-            "essif": "https://essif.europa.eu/schemas/vc/2020/v1",
+            "essif": "https://essif.europa.eu/schemas/vc/2020/v1#",
             "xsd": "http://www.w3.org/2001/XMLSchema#",
 
             "@version": 1.1,
