@@ -9,7 +9,7 @@
     "DiplomaCredential"
   ],
   "issuer": "did:ebsi:51rzpDXXCtKExG47boFBahAgd2dtfAZbQxMHM17mYKoq",
-  "issuanceDate": "2021-06-10T10:45:13Z",
+  "issuanceDate": "2021-06-28T13:14:56Z",
   "credentialSubject": {
     "type": "Student",
     "id": "did:key:z6Mkk2gs7gfr1F1idzKkjie7eA4pDtRjGfG2GdGcVf9kHgQw",
@@ -26,9 +26,9 @@
   },
   "proof": {
     "type": "EcdsaSecp256k1Signature2019",
-    "created": "2021-06-10T10:45:13Z",
+    "created": "2021-06-28T13:14:56Z",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:ebsi:51rzpDXXCtKExG47boFBahAgd2dtfAZbQxMHM17mYKoq#keys-1",
-    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEUCIQDDjn4oP8B7L_6E_OSqLqM_Lh3KJZg0YRzmX2uX6MOX8AIgMX0jALizKvFwOq69Q95PJJ2C7aYgJWYQ1SkCm9LvZnM"
+    "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEUCIQDD_KZWLkzQWhp8Hdtm7AV2WaILUlHweSNbXpubvZIZ4AIgBkcXiPvMEFW5KVl0VQ90fBTfnvuAouCtVQPETtPL86M"
   }
 }
