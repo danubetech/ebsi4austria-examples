@@ -2,6 +2,7 @@
 	"@context": ["https://www.w3.org/2018/credentials/v1", "https://essif.europa.eu/schemas/vc/2020/v1"],
 	"type": ["VerifiableCredential", "VerifiableAttestation", "DiplomaCredential"],
 	"issuer": "did:ebsi:FqiyP831qX5xUD66CCAKMDs225QNb9Sp3UHvbJ9tSDn6",
+	"issuanceDate": "2021-07-25T11:05:18Z",
 	"credentialSubject": {
 		"type": "Student",
 		"id": "did:key:z6MkqyYXcBQZ5hZ9BFHBiVnmrZ1C1HCpesgZQoTdgjLdU6Ah",
@@ -11,12 +12,11 @@
 		"eqfLevel": "http://data.europa.eu/snb/eqf/7",
 		"targetFrameworkName": "European Qualifications Framework for lifelong learning - (2008/C 111/01)"
 	},
-	"issuanceDate": "2021-06-28T13:20:17Z",
 	"proof": {
 		"type": "EcdsaSecp256k1Signature2019",
-		"created": "2021-06-28T13:20:17Z",
+		"created": "2021-07-25T11:05:18Z",
 		"proofPurpose": "assertionMethod",
 		"verificationMethod": "did:ebsi:FqiyP831qX5xUD66CCAKMDs225QNb9Sp3UHvbJ9tSDn6#keys-1",
-		"jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..MEUCIQCaM9o2_cri9mUPj5NYvCTuf99E9lQwGGBmtGmM27TweQIgScRiZC83MiepiUGF09ggJZ6B6R4h84AK-O-C9DiNknw"
+		"jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..WQc2oEP0hwd1DEAicTjVRQgPpXJtogMDcsk1QedFs1Z8TX85_UrbKI9KRhX2YD7r5YwC_r8-k_tJdfezkSEBag"
 	}
 }
