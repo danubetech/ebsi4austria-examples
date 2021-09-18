@@ -1,11 +1,19 @@
 {
-	"@context": ["https://www.w3.org/2018/credentials/v1", "https://essif.europa.eu/schemas/vc/2020/v1"],
-	"type": ["VerifiableCredential", "VerifiableAttestation", "DiplomaCredential"],
+	"@context": [
+		"https://www.w3.org/2018/credentials/v1",
+		"https://essif.europa.eu/schemas/vc/2020/v1"
+	],
 	"issuer": "did:ebsi:51rzpDXXCtKExG47boFBahAgd2dtfAZbQxMHM17mYKoq",
-	"issuanceDate": "2021-07-25T11:02:49Z",
+	"type": [
+		"VerifiableCredential",
+		"VerifiableAttestation",
+		"DiplomaCredential"
+	],
 	"credentialSubject": {
-		"type": "Student",
 		"id": "did:key:z6Mkk2gs7gfr1F1idzKkjie7eA4pDtRjGfG2GdGcVf9kHgQw",
+		"type": [
+			"Student"
+		],
 		"studyProgram": "Master Studies in Strategy, Innovation, and Management Control",
 		"immatriculationNumber": "00000000",
 		"currentGivenName": "Eva",
@@ -17,11 +25,12 @@
 		"eqfLevel": "http://data.europa.eu/snb/eqf/7",
 		"targetFrameworkName": "European Qualifications Framework for lifelong learning - (2008/C 111/01)"
 	},
+	"issuanceDate": "2021-09-18T12:20:38Z",
 	"proof": {
 		"type": "EcdsaSecp256k1Signature2019",
-		"created": "2021-07-25T11:02:49Z",
+		"created": "2021-09-18T12:20:38Z",
 		"proofPurpose": "assertionMethod",
 		"verificationMethod": "did:ebsi:51rzpDXXCtKExG47boFBahAgd2dtfAZbQxMHM17mYKoq#keys-1",
-		"jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..P5vQfWCetyNoCIW6-9cmmdSa1tHPiAaf_bXpQhMrLSUumR4cl5jzfMZsdttlY1HsdcOk1lHJ4nOrItDI0fVrvQ"
+		"jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..WaueyLfo1PfJBcAdGNnBQ9FEkvOLUyD0hrrcosnnGTw9UNIkyffmN6yWXAxANNALQR1yOvFhID9ksgzGVySBgA"
 	}
 }

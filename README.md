@@ -19,11 +19,20 @@ The project is funded by the EU's Connecting Europe Facility (CEF) under the [20
 * Test DID for TU Graz: [`did:ebsi:FqiyP831qX5xUD66CCAKMDs225QNb9Sp3UHvbJ9tSDn6`](https://dev.uniresolver.io/#did:ebsi:FqiyP831qX5xUD66CCAKMDs225QNb9Sp3UHvbJ9tSDn6)
 * Test DID for WU Wien: [`did:ebsi:51rzpDXXCtKExG47boFBahAgd2dtfAZbQxMHM17mYKoq`](https://dev.uniresolver.io/#did:ebsi:51rzpDXXCtKExG47boFBahAgd2dtfAZbQxMHM17mYKoq)
 
+## Contexts
+
+* [essif-schemas-vc-2020-v1.jsonld](https://github.com/danubetech/ebsi4austria-examples/blob/main/context/essif-schemas-vc-2020-v1.jsonld)
+
 ## Verifiable Credentials
 
-* [JSON-LD Context](https://github.com/danubetech/ebsi4austria-examples/blob/main/context/essif-schemas-vc-2020-v1.jsonld)
-* [Example Diploma 1](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-tu-graz.jsonld)
-* [Example Diploma 2](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-wu-wien.jsonld)
+* Example Diploma by TU Graz
+  * [JSON-LD+LD-Proofs](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-tu-graz.jsonld)
+  * [JSON-LD+JWT](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-tu-graz.jsonldjwt) (also see [JWT payload only](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-tu-graz.jsonldjwt.payload))
+  * [JSON+JWT](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-tu-graz.jwt) (also see [JWT payload only](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-tu-graz.jwt.payload))
+* Example Diploma by WU Wien
+    * [JSON-LD+LD-Proofs](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-wu-wien.jsonld)
+    * [JSON-LD+JWT](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-wu-wien.jsonldjwt) (also see [JWT payload only](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-wu-wien.jsonldjwt.payload))
+    * [JSON+JWT](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-wu-wien.jwt) (also see [JWT payload only](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-wu-wien.jwt.payload))
 
 ## Demonstration Websites
 

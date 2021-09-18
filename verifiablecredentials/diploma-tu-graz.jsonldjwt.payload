@@ -1,0 +1,26 @@
+{
+	"sub": "did:key:z6MkqyYXcBQZ5hZ9BFHBiVnmrZ1C1HCpesgZQoTdgjLdU6Ah",
+	"nbf": 1631967506,
+	"iss": "did:ebsi:FqiyP831qX5xUD66CCAKMDs225QNb9Sp3UHvbJ9tSDn6",
+	"vc": {
+		"@context": [
+			"https://www.w3.org/2018/credentials/v1",
+			"https://essif.europa.eu/schemas/vc/2020/v1"
+		],
+		"type": [
+			"VerifiableCredential",
+			"VerifiableAttestation",
+			"DiplomaCredential"
+		],
+		"credentialSubject": {
+			"type": [
+				"Student"
+			],
+			"studyProgram": "Master Studies in Computer Science",
+			"learningAchievement": "Master of Science",
+			"dateOfAchievement": "2021-03-18T00:00:00.000Z",
+			"eqfLevel": "http://data.europa.eu/snb/eqf/7",
+			"targetFrameworkName": "European Qualifications Framework for lifelong learning - (2008/C 111/01)"
+		}
+	}
+}

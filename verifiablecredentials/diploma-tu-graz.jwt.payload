@@ -1,0 +1,10 @@
+{
+	"sub": "did:key:z6MkqyYXcBQZ5hZ9BFHBiVnmrZ1C1HCpesgZQoTdgjLdU6Ah",
+	"nbf": 1631967575,
+	"targetFrameworkName": "European Qualifications Framework for lifelong learning - (2008/C 111/01)",
+	"iss": "did:ebsi:FqiyP831qX5xUD66CCAKMDs225QNb9Sp3UHvbJ9tSDn6",
+	"eqfLevel": "http://data.europa.eu/snb/eqf/7",
+	"learningAchievement": "Master of Science",
+	"studyProgram": "Master Studies in Computer Science",
+	"dateOfAchievement": "2021-03-18T00:00:00.000Z"
+}
