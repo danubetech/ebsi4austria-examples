@@ -40,6 +40,6 @@ The project is funded by the EU's Connecting Europe Facility (CEF) under the [20
 * https://tugraz.ebsi4austria.danubetech.com/ - Issuer demo website
 * https://wuwien.ebsi4austria.danubetech.com/ - Verifier demo website
 
-## About
+## Contact
 
-Contact: markus@danubetech.com
+markus@danubetech.com
