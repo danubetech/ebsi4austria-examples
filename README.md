@@ -34,6 +34,12 @@ The project is funded by the EU's Connecting Europe Facility (CEF) under the [20
     * [JSON-LD+JWT](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-wu-wien.jsonldjwt) (also see [JWT payload only](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-wu-wien.jsonldjwt.payload))
     * [JSON+JWT](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-wu-wien.jwt) (also see [JWT payload only](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-wu-wien.jwt.payload))
 
+## Technology
+
+* [Universal Issuer](https://uniissuer.io/)
+* [Universal Verifier](https://univerifier.io/)
+* [SSI Java Libraries](https://gitlab.grnet.gr/essif-lab/infrastructure_2/danubetech/SSI_Java_Libraries_project_summary)
+
 ## Demonstration Websites
 
 * https://wallet.interop.digitalbazaar.com/ - CHAPI web-based wallet
