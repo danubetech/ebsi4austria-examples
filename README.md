@@ -36,9 +36,13 @@ The project is funded by the EU's Connecting Europe Facility (CEF) under the [20
 
 ## Technology
 
+We use the following technologies in our project:
+
 * [Universal Issuer](https://uniissuer.io/)
 * [Universal Verifier](https://univerifier.io/)
 * [SSI Java Libraries](https://gitlab.grnet.gr/essif-lab/infrastructure_2/danubetech/SSI_Java_Libraries_project_summary)
+    * [ld-signatures-java](https://github.com/weboftrustinfo/ld-signatures-java)
+    * [verifiable-credentials-java](https://github.com/danubetech/verifiable-credentials-java)
 
 ## Demonstration Websites
 
