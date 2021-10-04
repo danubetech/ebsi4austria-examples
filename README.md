@@ -21,6 +21,8 @@ The project is funded by the EU's Connecting Europe Facility (CEF) under the [20
 
 ## Contexts
 
+Note: This is something we are using internally at EBSI4Austria for experimentation; this is NOT an official EBSI/ESSIF JSON-LD context!
+
 * [essif-schemas-vc-2020-v1.jsonld](https://github.com/danubetech/ebsi4austria-examples/blob/main/context/essif-schemas-vc-2020-v1.jsonld)
 
 ## Verifiable Credentials
