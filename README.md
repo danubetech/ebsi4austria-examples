@@ -32,8 +32,8 @@ Note: This is something we are using internally at EBSI4Austria for experimentat
   * [JSON-LD+JWT](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-tu-graz.jsonldjwt) (also see [JWT payload only](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-tu-graz.jsonldjwt.payload))
   * [JSON+JWT](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-tu-graz.jwt) (also see [JWT payload only](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-tu-graz.jwt.payload))
 * Example Diploma by WU Wien
-    * [Paper (German])(https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/master_beispiel_de.png)
-    * [Paper (English])(https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/master_beispiel_en.png)
+    * [Paper version](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/master_beispiel_de.png) (in German)
+    * [Paper version](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/master_beispiel_en.png) (in English)
     * [JSON-LD+LD-Proofs](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-wu-wien.jsonld)
     * [JSON-LD+JWT](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-wu-wien.jsonldjwt) (also see [JWT payload only](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-wu-wien.jsonldjwt.payload))
     * [JSON+JWT](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-wu-wien.jwt) (also see [JWT payload only](https://github.com/danubetech/ebsi4austria-examples/blob/main/verifiablecredentials/diploma-wu-wien.jwt.payload))
