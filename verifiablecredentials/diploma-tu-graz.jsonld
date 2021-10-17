@@ -3,7 +3,7 @@
 		"https://www.w3.org/2018/credentials/v1",
 		"https://essif.europa.eu/schemas/vc/2020/v1"
 	],
-	"issuer": "did:ebsi:FqiyP831qX5xUD66CCAKMDs225QNb9Sp3UHvbJ9tSDn6",
+	"issuer": "did:ebsi:zuoS6VfnmNLduF2dynhsjBU",
 	"type": [
 		"VerifiableCredential",
 		"VerifiableAttestation",
@@ -20,12 +20,12 @@
 		"eqfLevel": "http://data.europa.eu/snb/eqf/7",
 		"targetFrameworkName": "European Qualifications Framework for lifelong learning - (2008/C 111/01)"
 	},
-	"issuanceDate": "2021-09-18T12:17:49Z",
+	"issuanceDate": "2021-10-17T12:50:56Z",
 	"proof": {
 		"type": "EcdsaSecp256k1Signature2019",
-		"created": "2021-09-18T12:17:49Z",
+		"created": "2021-10-17T12:50:56Z",
 		"proofPurpose": "assertionMethod",
-		"verificationMethod": "did:ebsi:FqiyP831qX5xUD66CCAKMDs225QNb9Sp3UHvbJ9tSDn6#keys-1",
-		"jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..yrwf9e6S0EuaS_W81jPVqI7sxrFvSeWI1hxELuHifk0LgjRlUR7v5sIVUhxwPa2wfss27uAHQPejAQn5BjFIRA"
+		"verificationMethod": "did:ebsi:zuoS6VfnmNLduF2dynhsjBU#keys-1",
+		"jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFUzI1NksifQ..HPsxUCfNmHgaJ2ki4sVgrKhCJ0yGgcf2cuK194ICAvZiWpPS_Od7lZse5cwLTuoKmiI1emrajdvHbdUNCbxjfw"
 	}
 }

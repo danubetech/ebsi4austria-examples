@@ -1,7 +1,7 @@
 {
 	"sub": "did:key:z6MkqyYXcBQZ5hZ9BFHBiVnmrZ1C1HCpesgZQoTdgjLdU6Ah",
-	"nbf": 1631967506,
-	"iss": "did:ebsi:FqiyP831qX5xUD66CCAKMDs225QNb9Sp3UHvbJ9tSDn6",
+	"nbf": 1634475082,
+	"iss": "did:ebsi:zuoS6VfnmNLduF2dynhsjBU",
 	"vc": {
 		"@context": [
 			"https://www.w3.org/2018/credentials/v1",
