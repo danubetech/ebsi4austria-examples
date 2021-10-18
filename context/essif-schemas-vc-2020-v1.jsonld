@@ -33,9 +33,7 @@
             "learningAchievement": "essif:learningAchievement",
             "dateOfBirth": { "@id": "essif:dateOfBirth", "@type": "xsd:dateTime" },
             "dateOfAchievement": { "@id": "essif:dateOfAchievement", "@type": "xsd:dateTime" },
-            "overallEvaluation": "essif:overallEvaluation",
-            "eqfLevel": "essif:eqfLevel",
-            "targetFrameworkName": "essif:targetFrameworkName"
+            "iscedfCode": "essif:iscedfCode",
         }
     }
   }
