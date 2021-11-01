@@ -42,11 +42,13 @@ Note: This is something we are using internally at EBSI4Austria for experimentat
 
 We use the following technologies in our project:
 
-* [Universal Issuer](https://uniissuer.io/)
-* [Universal Verifier](https://univerifier.io/)
+* [Universal Resolver](https://uniresolver.io/) --> For resolving DIDs.
+* [Universal Registrar](https://uniregistrar.io/) --> For creating DIDs.
+* [Universal Issuer](https://uniissuer.io/) --> For issuing VCs.
+* [Universal Verifier](https://univerifier.io/) --> For verifying VCs.
 * [SSI Java Libraries](https://gitlab.grnet.gr/essif-lab/infrastructure_2/danubetech/SSI_Java_Libraries_project_summary)
-    * [ld-signatures-java](https://github.com/weboftrustinfo/ld-signatures-java)
-    * [verifiable-credentials-java](https://github.com/danubetech/verifiable-credentials-java)
+    * [ld-signatures-java](https://github.com/weboftrustinfo/ld-signatures-java) - For Linked Data Signatures.
+    * [verifiable-credentials-java](https://github.com/danubetech/verifiable-credentials-java) - For Verifiable Credentials.
 
 ## Demonstration Websites
 
