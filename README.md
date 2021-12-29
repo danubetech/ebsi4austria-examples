@@ -26,6 +26,7 @@ Project description: https://www.a-sit.at/en/ebsi4austria-2/
 Note: This is something we are using internally at EBSI4Austria for experimentation; this is NOT an official EBSI/ESSIF JSON-LD context!
 
 * [essif-schemas-vc-2020-v1.jsonld](https://github.com/danubetech/ebsi4austria-examples/blob/main/context/essif-schemas-vc-2020-v1.jsonld)
+* [essif-schemas-vc-2020-v2.jsonld](https://github.com/danubetech/ebsi4austria-examples/blob/main/context/essif-schemas-vc-2020-v2.jsonld)
 
 ## Verifiable Credentials
 
