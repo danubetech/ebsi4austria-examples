@@ -33,7 +33,7 @@
             "learningAchievement": "essif:learningAchievement",
             "dateOfBirth": { "@id": "essif:dateOfBirth", "@type": "xsd:dateTime" },
             "dateOfAchievement": { "@id": "essif:dateOfAchievement", "@type": "xsd:dateTime" },
-            "iscedfCode": "essif:iscedfCode",
+            "iscedfCode": "essif:iscedfCode"
         }
     }
   }
