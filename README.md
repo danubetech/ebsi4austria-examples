@@ -4,9 +4,11 @@
 
 This repository contains information and examples related to the **EBSI4Austria** project, to pilot the [European Blockchain Service Infrastructure (EBSI)](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/EBSI) in Austria.
 
-The project is funded by the EU's Connecting Europe Facility (CEF) under the [2020 CEF Telecom Call - Blockchain (CEF-TC-2020-1)](https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/apply-funding/2020-cef-telecom-calls-proposals).
+For additional information about this project, see: https://www.a-sit.at/en/ebsi4austria-2/.
 
-Project description: https://www.a-sit.at/en/ebsi4austria-2/
+The project is co-financed by the EU's Connecting Europe Facility (CEF) under agreement no INEA/CEF/ICT/A2020/2271545 of the [2020 CEF Telecom Call - Blockchain (CEF-TC-2020-1)](https://ec.europa.eu/inea/en/connecting-europe-facility/cef-telecom/apply-funding/2020-cef-telecom-calls-proposals).
+
+<img src="https://user-images.githubusercontent.com/290941/148685401-bd5df6c7-dc3e-436c-aa44-7bfe76042415.png" width="300" />
 
 **WARNING:** The example data in this repository (incl. DIDs, keys, verifiable credentials, etc.) is for experimentation only. Any data in this repository must not be used for any real-life use cases, or considered real, secure, or trusted.
 
